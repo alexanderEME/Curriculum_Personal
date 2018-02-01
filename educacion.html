@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Educación Personal</title>
+  </head>
+  <body>
+    <header>
+        <svg>
+          <image xlink:href="multimedia/imagen/logo.svg" width="200px" height="150px"></image>
+        </svg>
+        <h1>Currculum Vitae</h1>
+          <h2>Nombre:</h2>
+            <h3>Alexander Eduardo Martinez Echezuría</h3>
+          <h2>Fecha de nacimiento:</h2>
+            <h3>29/07/1988</h3>
+          <h2>Lugar de nacimiento:</h2>
+            <h3>Caracas - Venezuela</h3>
+    </header>
+    <nav>
+      <list>
+        <ul>
+          <li><a href="index.html">Inicio</a></li>
+          <li><a href="educacion.html">Educación</a></li>
+          <li><a href="experiencia.html">Experiencia</a></li>
+        <ul>
+      </list>
+    </nav>
+    <section>
+      <h2>Educación</h2>
+      <table border="1">
+          <tr>
+            <th>Año</th>
+            <th>Institución</th>
+            <th>Lugar</th>
+            <th>¿Culminó?</th>
+          </tr>
+          <tr>
+            <td>2005</td>
+            <td>Colegio San Jose</td>
+            <td>Los Teques - Venezuela</td>
+            <td>Si</td>
+          </tr>
+          <tr>
+            <td>2011</td>
+            <td>Universidad Bicentenaria de Aragua</td>
+            <td>San Antonio - Venezuela</td>
+            <td>Si</td>
+          </tr>
+        </table><br>
+          <form name="Agregar_Estudios">
+              <legend><h2>Agregar Estudios<h2></legend>
+              <label input="number" for="fecha">Año:</label>
+              <input type="date" id="fecha"><br>
+              <label input="text" for="ins">Institución:</label>
+              <input type="text" id="ins" required><br>
+              <label input="text" for="lugar">Lugar:</label>
+              <textarea name="lugar" rows="3" cols="28" id="lugar"></textarea><br>
+              <label for="culmino">¿Culminó?:</label>
+              <input type="radio"  name=”culmino” id="culmino">Si
+              <input type="radio" name=”culmino” id="culmino">No<br>
+              <input type="submit" id="enviar">
+          </form>
+    </section>
+    <footer>
+      <p> © Derechos Reservados</p>
+       <strong><u>Correo:</u></strong>
+        <a href="mailto:alexander.eme@gmail.com?subjet=feedback">alexander.eme@gmail.com</a>
+       <p><strong><u>Teléfono:</u></strong> 5573608528</p>
+       <p><strong><u>Dirección:</u></strong> Cidudad de Mexico</p>
+    </footer>
+  </body>
+</html>
